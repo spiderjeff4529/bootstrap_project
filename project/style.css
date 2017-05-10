@@ -64,3 +64,9 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
+h4{
+    font-size: medium;
+    text-align: center;
+    color:blue;
+    /*background-image: url(http://www1.pictures.zimbio.com/gi/Lionel+Messi+FC+Barcelona+v+UD+Almeria+La+QLDcSurHnPol.jpg)*/
+}
