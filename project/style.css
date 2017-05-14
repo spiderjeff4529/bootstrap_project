@@ -80,15 +80,21 @@ h{
     height: 50%;
     margin-top: 10%
 }
+.carousel-inner{
+  height: 700px;
+}
 .carousel-inner .item img {
-    width: 75%;
-    height: 100%;
+    /*width: 75%;*/
+    /*height:%;*/
+    margin-top: 81px;
+    overflow:hidden;
 }
 img.pic {
     margin: auto;
     width: 85%;
     padding: 0px;
-    height: 600px;
+    height: 30px;
     position: relative;
     bottom: 82px;
+    overflow:hidden;
 }
