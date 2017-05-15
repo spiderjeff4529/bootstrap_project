@@ -64,9 +64,9 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-h{
+h4{
     font-size: medium;
-    text-align: center;
+    text-align: left;
     color:#033E7B;
     font-style: italic;
     
