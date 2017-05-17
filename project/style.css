@@ -3,7 +3,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: rgb(3, 62, 123);
  }
  
  .navbar-custom .navbar-toggle {
@@ -141,10 +141,12 @@
   margin: auto;
   transform: translateY(50%);
  }
- 
- .glyphicon {
-  color: rgb(3, 62, 123);
+ .spam{
+   color: rgb(3, 62, 123);
+ }
+ .span.info {
   font-size: 32px;
+  visibility: hidden;
  }
  
  .glyphicon-chevron-left {
@@ -171,12 +173,14 @@
  p3 {
   color: #033E7B;
  }
- .info{
+ 
+ .info {
   display: block;
   text-align: center;
   position: relative;
   visibility: hidden;
  }
+ 
  .slide {
   /* The name of the animation */
   animation-name: slide;
