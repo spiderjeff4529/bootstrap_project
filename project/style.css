@@ -171,7 +171,12 @@
  p3 {
   color: #033E7B;
  }
- 
+ .info{
+  display: block;
+  text-align: center;
+  position: relative;
+  visibility: hidden;
+ }
  .slide {
   /* The name of the animation */
   animation-name: slide;
