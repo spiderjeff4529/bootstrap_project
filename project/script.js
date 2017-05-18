@@ -18,7 +18,18 @@ $(window).scroll(function slide() {
     }
   });
 });
-$(window).scroll(slide);
-$(document).ready(slide);
+
+$(window).scroll(function slide() {
+  $(".sub").each(function() {
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide-glyphicon");
+    }
+  });
+});
+// $(window).scroll(slide);
+// $(document).ready(slide);
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);

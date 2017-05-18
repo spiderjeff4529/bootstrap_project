@@ -209,3 +209,31 @@
   }
  }
  
+ .sub{
+  display: block;
+  text-align: center;
+  position: relative;
+  visibility: hidden;
+ }
+ .slide-glyphicon{
+  /* The name of the animation */
+  animation-name: slide-glyphicon;
+  -webkit-animation-name: slide-glyphicon;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+ }
+ 
+ @keyframes slide-glyphicon {
+  0% {
+   opacity: 0;
+   transform: translateX(70%);
+  }
+  100% {
+   opacity: 1;
+   transform: translateX(0%);
+  }
+ }
+ 
