@@ -138,16 +138,20 @@
   vertical-align: middle;
   /*text-align: center;*/
   /*margin:20px 20px;*/
-  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20%;
   transform: translateY(50%);
  }
- .spam{
+ span{
    color: rgb(3, 62, 123);
+   font-size: 32px;
+   /*visibility: hidden;*/
+
  }
- .span.info {
-  font-size: 32px;
-  visibility: hidden;
- }
+ /*.span.info {*/
+ /* font-size: 32px;*/
+ /* visibility: hidden;*/
+ /*}*/
  
  .glyphicon-chevron-left {
   color: rgba(3, 62, 123, 0.3);
@@ -159,6 +163,7 @@
  
  #contact {
   background-color: rgba(3, 62, 123, 0.2);
+  margin-top: 5%;
  }
  
  #Ronaldo {
