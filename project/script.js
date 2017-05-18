@@ -6,11 +6,9 @@ function collapseNavbar() {
   else {
     $(".navbar-fixed-top").removeClass("top-nav-collapse");
   }
-}
-$(window).scroll(collapseNavbar);
-$(document).ready(collapseNavbar);
+}  
 
-$(window).scroll(function() {
+$(window).scroll(function slide() {
   $(".info").each(function() {
     var pos = $(this).offset().top;
 
@@ -20,3 +18,7 @@ $(window).scroll(function() {
     }
   });
 });
+$(window).scroll(slide);
+$(document).ready(slide);
+$(window).scroll(collapseNavbar);
+$(document).ready(collapseNavbar);

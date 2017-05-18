@@ -142,12 +142,6 @@
   margin-bottom: 20%;
   transform: translateY(50%);
  }
- span{
-   color: rgb(3, 62, 123);
-   font-size: 32px;
-   /*visibility: hidden;*/
-
- }
  /*.span.info {*/
  /* font-size: 32px;*/
  /* visibility: hidden;*/
@@ -179,11 +173,18 @@
   color: #033E7B;
  }
  
+ span {
+  color: rgb(3, 62, 123);
+  font-size: 32px;
+  /*visibility: hidden;*/
+ }
+ 
  .info {
   display: block;
   text-align: center;
   position: relative;
   visibility: hidden;
+  /*animation: slide 2s;*/
  }
  
  .slide {
